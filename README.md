@@ -4,6 +4,17 @@ The focus of this project is to create Django app that utilizes the Geocoding AP
 
 ## Setup
 
+#### virtual environment
+
+Create a virtual environment by using the command line tool `virtualenv` , if you are not familiar with this tool here is a handy link on more information : https://virtualenv.pypa.io/en/latest/
+
+1) in the root of the folder with this repo run: 
+    `virtualenv venv` (venv is just a variable name  for the folder being created by virtualenv. you can name it anything you like)
+2) next find the requirements.text file in this repository and run:
+    `pip install -r requirements.txt `
+3) After all packages are install you can move on to the next step.
+      
+#### update django settings file
 To use this django app you need to update the `google_geocoding/settings.py` file. Opening the file then scrolling to the end of the file look for the "API_KEY" settings variable. This is where you can type in the API key for your google apis. 
 
 
